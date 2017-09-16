@@ -23,9 +23,30 @@ p {
 }
 
 .footer {
+  float: left;
   text-align: left;
   display: inline;
+  background-color: dimgrey;
+  width: 100%;
+}
+
+.footer p {
+  display: inline;
   font-size: 11px;
+  color: white;
+}
+
+.footer-links {
+  display:inline;
+  padding-left: 5px;
+}
+
+.footer-links li {
+  display: inline;
+  list-style: none;
+  text-decoration: underline;
+  color: white;
+  font-size: 13px;
 }
 
 .header {
